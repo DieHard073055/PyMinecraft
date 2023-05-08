@@ -27,6 +27,7 @@ PyMinecraft also includes example code in the `examples` directory, which demons
 python 1_get_player_position.py
 ```
 This will run the `1_get_player_position.py` script, which shows how to get the position of the player in the Minecraft world.
+![player position script output](img/1_get_player_position.png)
 
 To use the `py3minepi` library in your own Python code, simply import it as follows:
 

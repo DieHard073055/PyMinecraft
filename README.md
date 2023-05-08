@@ -6,9 +6,9 @@ PyMinecraft is a Python library for interacting with Minecraft servers. It inclu
 
 Before you can use PyMinecraft, you need to install the `py3minepi` library. To do so, create a virtual environment and activate it, then navigate to the `py3minepi` directory and run the following command:
 
----codeblock start---
+```shell
 pip install .
----codeblock end---
+```
 
 This will install the `py3minepi` library and its dependencies.
 
@@ -23,17 +23,16 @@ Once the server is running, you can connect to it using your local installation 
 
 PyMinecraft also includes example code in the `examples` directory, which demonstrates how to do interesting things with the Minecraft server using Python. To run the example code, navigate to the `examples` directory and run one of the Python scripts. For example:
 
----codeblock start---
+```shell
 python 1_get_player_position.py
----codeblock end---
-
+```
 This will run the `1_get_player_position.py` script, which shows how to get the position of the player in the Minecraft world.
 
 To use the `py3minepi` library in your own Python code, simply import it as follows:
 
----codeblock start---
+```python
 from mcpi.minecraft import Minecraft
----codeblock end---
+```
 
 This will allow you to create a `Minecraft` object, which you can use to interact with the Minecraft server from your Python code.
 
